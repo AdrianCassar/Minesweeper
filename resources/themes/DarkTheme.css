@@ -1,0 +1,284 @@
+/* 
+    Created on : 28-Feb-2020, 16:48:39
+    Author     : 215859
+*/
+
+.root {
+    -fx-background-color: #5e5e5e;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.button {
+    /*-fx-background-color: #5e5e5e;*/
+    /*-fx-background-color: #e24c3f;*/
+    /*-fx-cursor: hand;*/
+    -fx-background-color: #2e2e2e;
+    -fx-border-style: none;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+
+#gameSummaryTitle {
+    -fx-underline: true;
+     -fx-text-fill: black;
+    -fx-font-size: 24px;
+}
+
+/*
+////////////////////////
+      ComboBox CSS
+////////////////////////
+*/
+
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell  {
+    -fx-text-fill: white;
+    -fx-background-color: #e24c3f;
+}
+
+.combo-box-popup .list-view .list-cell:selected  {
+    -fx-background-color: #2e2e2e;
+}
+
+.combo-box-popup .list-view .list-cell:hover  {
+    -fx-background-color: #3f60e2;
+}
+
+.combo-box-base {
+    -fx-background-radius: 3px, 3px, 3px, 3px;
+    -fx-font-size: 16px;
+    -fx-background-color: #2e2e2e;
+}
+
+/*
+////////////////////////
+      MenuBar CSS
+////////////////////////
+*/
+
+.menu-bar {
+    -fx-background-color: #2e2e2e;
+}
+
+.menu-bar .menu-button .label  {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu-button {
+    -fx-background-color: #e24c3f;
+}
+
+.menu-bar .menu-button:hover  {
+    -fx-background-color: #2e2e2e;
+}
+
+.menu-button:hover .label  {
+    -fx-background-color: #2e2e2e;
+}
+
+.menu-bar .menu-item .label {
+    -fx-text-fill: white;
+    -fx-background-color: #e24c3f;
+}
+
+.menu-bar .menu-item {
+    -fx-text-fill: white;
+    -fx-background-color: #e24c3f;
+    -fx-border-color: #e24c3f;
+}
+
+.menu-bar .menu-item:focused {
+    -fx-background-color: #2e2e2e;
+    -fx-border-color: #2e2e2e;
+}
+
+.menu-bar .menu-item:focused .label {
+    -fx-background-color: #2e2e2e;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #e24c3f;
+}
+
+.menu-button:hover .context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #2e2e2e;
+}
+
+
+/*
+////////////////////////
+    Dialog Pane CSS
+////////////////////////
+*/
+
+.dialog-pane {
+    -fx-background-color: #5e5e5e;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane .check-box {
+    -fx-text-fill: white;
+}
+
+.dialog-pane > *.button-bar .button {
+    -fx-cursor: hand;
+}
+
+.dialog-pane > *.button-bar > *.container {
+    -fx-background-color: #5e5e5e;
+    -fx-border-color: #e24c3f;
+    -fx-border-width: 2 0 0 0;
+}
+
+.dialog-pane > *.label.content {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane:header *.header-panel {
+    -fx-background-color: #5e5e5e;
+    -fx-border-color: #e24c3f;
+    -fx-border-width: 0 0 2 0;
+}
+
+.dialog-pane:header *.header-panel *.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+GridPane .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+/*
+////////////////////////
+      Hyperlink CSS
+////////////////////////
+*/
+
+.hyperlink {
+    -fx-border-color: transparent;
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+}
+
+.hyperlink:visited {
+    -fx-text-fill: white;
+}
+
+/*
+////////////////////////
+      Other CSS
+////////////////////////
+*/
+
+.mine-tile-button {
+    -fx-background-color: #2e2e2e;
+    -fx-border-style: solid;
+    /*-fx-border-color: gray;*/
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-font-size: 32px;
+    -fx-border-radius: 0px;
+    -fx-padding: 0px;
+    
+    -fx-border-color: #2e2e2e;
+}
+
+
+/*Must be below mine-tile-button*/
+.highlightTile {
+    -fx-background-color: #e24c3f;
+}
+
+#mine-tile-button-pressed {
+    -fx-background-color: #e24c3f;
+}
+
+#button-disabled {
+    -fx-background-color: darkgray;
+}
+
+#three {
+    -fx-text-fill: #7f00ff;
+}
+
+#four {
+    -fx-text-fill: #0059ff;
+}
+
+#five {
+    -fx-text-fill: #840fd9;
+}
+
+#position .label {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+/*    -fx-text-fill: #2e2e2e;
+    -fx-text-fill: black;*/
+}
+
+.scroll-pane {
+    -fx-border-color: #2e2e2e;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: #2e2e2e;
+    -fx-border-color: #2e2e2e;
+}
+
+.scroll-pane .increment-button, .decrement-button {
+    -fx-border-color: #2e2e2e;
+}
+
+.scroll-pane .scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: #2e2e2e;
+}
+
+.scroll-pane .scroll-bar:horizontal .track, .scroll-bar:vertical .track {
+    -fx-background-color: #2e2e2e;
+    -fx-border-color: #2e2e2e;
+    -fx-border-color: #2e2e2e;
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb, .scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+}
+
+#warning {
+    -fx-font-size: 16px;
+    -fx-text-fill: DarkOrange;
+    -fx-font-weight: bold;
+}
+
+#timer {
+    -fx-font-size: 30px;
+    -fx-text-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-border-style: dashed;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    
+    -fx-text-fill: black;
+    -fx-background-color: #5e5e5e;
+}

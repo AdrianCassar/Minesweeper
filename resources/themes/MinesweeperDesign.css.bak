@@ -1,0 +1,200 @@
+/* 
+    Created on : 28-Feb-2020, 16:48:39
+    Author     : 215859
+*/
+
+.button {
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+    -fx-border-radius: 3px;
+    -fx-text-fill: white;
+    -fx-background-color: #e24c3f;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+
+#warning {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+#label-id {
+    -fx-font-size: 14px;
+    /*-fx-font-weight: bolder;*/
+}
+
+#position {
+    -fx-font-size: 20px;
+    /*-fx-padding: 10px;*/
+    
+    -fx-text-fill: #e24c3f;
+}
+
+#timer {
+    -fx-font-size: 30px;
+    -fx-text-alignment: center;
+    -fx-border-color: #e24c3f;
+    -fx-border-width: 5px;
+    -fx-border-style: dashed;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    
+    -fx-text-fill: #e24c3f;
+    -fx-background-color: Black;
+}
+
+#three {
+    -fx-text-fill: Indigo;
+}
+
+#four {
+    -fx-text-fill: Blue;
+}
+
+#five {
+    -fx-text-fill: Purple;
+}
+
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #e24c3f;
+    -fx-cursor: hand;
+    -fx-border-style: none;
+    -fx-text-fill: white;
+}
+
+.hyperlink {
+    -fx-border-color: transparent;
+    -fx-font-size: 13px;
+    -fx-text-fill: black;
+}
+
+.hyperlink:visited {
+    -fx-text-fill: black;
+}
+
+.dialog-pane > *.button-bar .button {
+    -fx-cursor: hand;
+}
+
+.dialog-pane > *.button-bar > *.container {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2 0 0 0;
+}
+
+.dialog-pane > *.label.content {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+
+.dialog-pane:header *.header-panel {
+    -fx-background-color: white;
+}
+
+.dialog-pane:header *.header-panel *.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+}
+
+/*#darkThemeButton {
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+    -fx-border-radius: 3px;
+    
+    -fx-text-fill: white;
+    -fx-background-color: #5e5e5e;
+}
+
+#whiteThemeButton {
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+    -fx-border-radius: 3px;
+    
+    -fx-text-fill: white;
+    -fx-background-color: #e24c3f;
+}*/
+
+/*.button {
+    -fx-border-color: black;
+    -fx-background-color: lightgray;
+    -fx-text-alignment: center;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-padding: 0px;
+    
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    
+    -fx-border-radius: 0px;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-font-size: 16px;
+    -fx-font-weight: bolder;
+}*/
+
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell  {
+    -fx-text-fill: white;
+    -fx-background-color: #e24c3f;
+}
+
+.combo-box-popup .list-view .list-cell:selected  {
+    -fx-background-color: #218f50;
+}
+ 
+.combo-box-popup .list-view .list-cell:hover  {
+    -fx-background-color: #3f60e2;
+}
+
+.combo-box-base {
+    /*-fx-shadow-highlight-color: -fx-outer-border, -fx-inner-border, white;*/
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-font-size: 16px;
+    -fx-background-color: #e24c3f;
+}
+
+.mine-tile-button {
+    -fx-border-color: black;
+    -fx-border-radius: 0px;
+    
+    -fx-background-color: lightgray;
+    /*-fx-text-alignment: center;*/
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-padding: 0px;
+    
+/*    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+    -fx-background-position: center;*/
+}
+
+#mine-tile-button-pressed {
+    -fx-background-color: red;
+    /*-fx-border-width: 3 3 3 3;*/
+}
+
+.highlightTile {
+    -fx-background-color: red;
+    /*-fx-border-width: 3 3 3 3;*/
+}
+
+.button-disabled {
+    -fx-background-color: darkgray;
+}
